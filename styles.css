@@ -1,0 +1,35 @@
+#email {
+  background-color: SeaShell;
+  padding: 3.125em;
+  max-width: 500px;
+  margin: 3.125rem auto;
+  border: 2px solid black;
+  box-shadow: 5px 3px 3px gray;
+  box-sizing: border-box;
+}
+
+.blurred {
+  filter: blur(3px);
+}
+
+#confidential {
+  display: inline-block;
+  border: 5px solid red;
+  padding: 0.625em;
+  color: red;
+  font-weight: bold;
+  font-size: 1.875rem;
+  margin-left: 6.25rem;
+  transform: rotate(-20deg);
+}
+
+#top-secret {
+  display: inline-block;
+  border: 5px solid red;
+  color: red;
+  padding: 0.625em;
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin-left: 12.5rem;
+  transform: rotate(15deg);
+}
